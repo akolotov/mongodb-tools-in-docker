@@ -10,3 +10,9 @@ containing [Mongo Database Tools](https://www.mongodb.com/docs/database-tools/).
 docker build -t mongodb-tools .
 ```
 
+## How to use
+
+```
+docker pull akolotov/mongodb-tools-in-docker:main
+docker run -ti --rm akolotov/mongodb-tools-in-docker:main mongoexport --help
+``` 

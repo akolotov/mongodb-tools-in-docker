@@ -7,7 +7,7 @@ env:
   DOCKER_REGISTRY: ghcr.io
   DOCKER_USERNAME: ${{ github.actor }}
   DOCKER_PASSWORD: ${{ secrets.GITHUB_TOKEN }}
-  IMAGE_NAME: ghcr.io/akolotov/mongodb-tools
+  IMAGE_NAME: ghcr.io/akolotov/mongodb-tools-in-docker
 
 jobs:
   dockerize:
